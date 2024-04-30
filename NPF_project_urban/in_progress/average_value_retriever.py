@@ -3,7 +3,7 @@ import numpy as np
 import sys
 
 # Read dataset
-df = pd.read_csv(r'C:\\Users\\Masloriy\\Desktop\\Data_urban\\dodo\\output_combined.csv')
+df = pd.read_csv(r'C:\\Users\\Masloriy\\Desktop\\NPF_project_urban\\NPF_project_urban\\in_progress\\output_combined.csv')
 # Prep the dataset
 df = df.dropna()
 df = df.drop(df.columns[df.columns.str.contains('Unnamed')], axis=1)
@@ -36,7 +36,7 @@ average_SO2_undef = np.mean(npf_df_undef['so2'])
 average_pm10_undef = np.mean(npf_df_undef['pm10'])
 
 # Redirect stdout to a file
-with open(r'C:\\Users\\Masloriy\\Desktop\\Data_urban\\dodo\\statistics_results.txt', 'w') as file:
+with open(r'C:\\Users\\Masloriy\\Desktop\\NPF_project_urban\\NPF_project_urban\\in_progress\\statistics_results.txt', 'w') as file:
     sys.stdout = file
     print('Avg temperature during NPF days:', average_temp_NPF)
     print('Avg temperature during non-NPF days:', average_temp_non)
