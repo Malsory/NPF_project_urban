@@ -1,0 +1,28 @@
+Test accuracy 0.6551724137931034
+Test precision 0.4047619047619048
+Test recall 0.48538011695906436
+Test roc_auc 0.5717594711416222
+Test f1 0.4404761904761905
+-------------------------------------------------------------------------------
+Train accuracy 0.7217391304347827
+Train precision 0.4837811667877028
+Train recall 0.5167341430499325
+Train roc_auc 0.791451178583524
+Train f1 0.4963216641298833
+-------------------------------------------------------------------------------
+mean_fit_time                   0.001576
+std_fit_time                    0.000477
+mean_score_time                 0.002611
+std_score_time                  0.000507
+param_n_neighbors                     10
+params               {'n_neighbors': 10}
+split0_test_score               0.782609
+split1_test_score               0.565217
+split2_test_score                0.73913
+split3_test_score               0.826087
+split4_test_score               0.608696
+mean_test_score                 0.704348
+std_test_score                  0.100659
+rank_test_score                        1
+Name: 9, dtype: object
+-------------------------------------------------------------------------------

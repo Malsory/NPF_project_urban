@@ -1,22 +1,46 @@
-Accuracies:  [0.5       , 0.58333333, 0.66666667, 0.75      , 0.83333333, 0.75      ,
- 0.81818182, 0.63636364, 0.72727273, 0.72727273]
-Precisions:  [0.5       , 0.52083333, 0.70833333, 0.825     , 0.76190476, 0.62962963,
- 0.76363636, 0.72727273, 0.58585859, 0.66233766]
-Recalls:  [0.5       , 0.58333333, 0.66666667, 0.75      , 0.83333333, 0.75      ,
- 0.81818182, 0.63636364, 0.72727273, 0.72727273]
------------------------------------------------------------------------------------------------
-Average Accuracy: 0.6992424242424242
-Average Precision: 0.6684806397306398
-Average Recall: 0.6992424242424242
-Average Roc_auc score: 0.7771227152477153
-Average F1 score: 0.6592878853172971
-Average non-NPF recall: 0.8889285714285714
-Average NPF recall: 0.5566666666666666
-Average Undefined recall: 0.15
------------------------------------------------------------------------------------------------
-test_accuracy 0.5862068965517241
-test_precision 0.6920077972709552
-test_recall 0.494553376906318
-test_roc_auc 0.6573822691469751
-test_f1 0.5370370370370371
------------------------------------------------------------------------------------------------
+Test accuracy 0.6551724137931034
+Test precision 0.7507246376811594
+Test recall 0.5163398692810457
+Test roc_auc 0.6963046757164403
+Test f1 0.5595238095238095
+-------------------------------------------------------------------------------
+Train accuracy 0.9391304347826087
+Train precision 0.9624183006535948
+Train recall 0.873413154010169
+Train roc_auc 0.997788438758588
+Train f1 0.9081146150273457
+-------------------------------------------------------------------------------
+mean_fit_time                                                                      4.053409
+std_fit_time                                                                       0.740714
+mean_score_time                                                                    0.142117
+std_score_time                                                                     0.026204
+param_adaboost__colsample_bylevel                                                       0.5
+param_adaboost__colsample_bynode                                                        1.0
+param_adaboost__colsample_bytree                                                        1.0
+param_adaboost__learning_rate                                                           0.1
+param_adaboost__max_depth                                                                 5
+param_adaboost__min_child_weight                                                          4
+param_adaboost__n_estimators                                                            100
+param_adaboost__subsample                                                               0.8
+param_random_forest__bootstrap                                                         True
+param_random_forest__max_depth                                                           50
+param_random_forest__max_features                                                       0.5
+param_random_forest__min_samples_leaf                                                     1
+param_random_forest__min_samples_split                                                    5
+param_random_forest__n_estimators                                                      2000
+params                                    {'adaboost__colsample_bylevel': 0.5, 'adaboost...
+split0_test_score                                                                  0.583333
+split1_test_score                                                                      0.75
+split2_test_score                                                                       0.5
+split3_test_score                                                                  0.583333
+split4_test_score                                                                  0.416667
+split5_test_score                                                                  0.909091
+split6_test_score                                                                  0.454545
+split7_test_score                                                                  0.727273
+split8_test_score                                                                  0.818182
+split9_test_score                                                                  0.909091
+mean_test_score                                                                    0.665152
+std_test_score                                                                     0.173278
+rank_test_score                                                                           1
+Name: 12, dtype: object
+-------------------------------------------------------------------------------

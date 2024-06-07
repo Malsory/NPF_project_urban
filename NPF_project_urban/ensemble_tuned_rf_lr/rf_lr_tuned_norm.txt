@@ -1,22 +1,41 @@
-Accuracies:  [0.6       , 0.93333333, 0.66666667, 0.66666667, 0.53333333, 0.57142857,
- 0.57142857, 0.64285714, 0.85714286, 0.64285714]
-Precisions:  [0.57142857, 0.87179487, 0.62222222, 0.55151515, 0.53181818, 0.6978022 ,
- 0.54761905, 0.64880952, 0.81168831, 0.48809524]
-Recalls:  [0.6       , 0.93333333, 0.66666667, 0.66666667, 0.53333333, 0.57142857,
- 0.57142857, 0.64285714, 0.85714286, 0.64285714]
------------------------------------------------------------------------------------------------
-Average Accuracy: 0.6685714285714286
-Average Precision: 0.6342793317793318
-Average Recall: 0.6685714285714286
-Average Roc_auc score: nan
-Average F1 score: 0.6024774333337801
-Average non-NPF recall: 0.9397222222222222
-Average NPF recall: 0.4895238095238095
-Average Undefined recall: 0.0
------------------------------------------------------------------------------------------------
-test_accuracy 0.6551724137931034
-test_precision 0.4633333333333334
-test_recall 0.42483660130718953
-test_roc_auc 0.6531674208144796
-test_f1 0.40781440781440786
------------------------------------------------------------------------------------------------
+Test accuracy 0.5862068965517241
+Test precision 0.3666666666666667
+Test recall 0.3681917211328976
+Test roc_auc 0.5802916038210155
+Test f1 0.3406593406593406
+-------------------------------------------------------------------------------
+Train accuracy 0.7391304347826086
+Train precision 0.5102413019079686
+Train recall 0.5229566453447051
+Train roc_auc 0.8546048013541429
+Train f1 0.50752688172043
+-------------------------------------------------------------------------------
+mean_fit_time                                                           0.166527
+std_fit_time                                                            0.028823
+mean_score_time                                                         0.010649
+std_score_time                                                          0.001099
+param_lr__C                                                                  0.1
+param_lr__max_iter                                                          1000
+param_lr__solver                                                            saga
+param_rf__bootstrap                                                        False
+param_rf__max_depth                                                           40
+param_rf__max_features                                                      sqrt
+param_rf__min_samples_leaf                                                     2
+param_rf__min_samples_split                                                   40
+param_rf__n_estimators                                                       100
+params                         {'lr__C': 0.1, 'lr__max_iter': 1000, 'lr__solv...
+split0_test_score                                                       0.666667
+split1_test_score                                                           0.75
+split2_test_score                                                           0.75
+split3_test_score                                                            0.5
+split4_test_score                                                       0.916667
+split5_test_score                                                       0.636364
+split6_test_score                                                       0.909091
+split7_test_score                                                       0.818182
+split8_test_score                                                       0.636364
+split9_test_score                                                       0.636364
+mean_test_score                                                          0.72197
+std_test_score                                                          0.125723
+rank_test_score                                                                1
+Name: 11, dtype: object
+-------------------------------------------------------------------------------

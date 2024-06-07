@@ -1,0 +1,46 @@
+Test accuracy 0.9019607843137255
+Test precision 0.9069444444444444
+Test recall 0.9019607843137255
+Test roc_auc 0.9884659746251442
+Test f1 0.901003276003276
+-------------------------------------------------------------------------------
+Train accuracy 1.0
+Train precision 1.0
+Train recall 1.0
+Train roc_auc 1.0
+Train f1 1.0
+-------------------------------------------------------------------------------
+mean_fit_time                                                                      5.057537
+std_fit_time                                                                       0.904567
+mean_score_time                                                                    0.148591
+std_score_time                                                                     0.035577
+param_adaboost__colsample_bylevel                                                  0.501815
+param_adaboost__colsample_bynode                                                   0.908915
+param_adaboost__colsample_bytree                                                        1.0
+param_adaboost__learning_rate                                                           0.1
+param_adaboost__max_depth                                                                 5
+param_adaboost__min_child_weight                                                          2
+param_adaboost__n_estimators                                                            100
+param_adaboost__subsample                                                               0.8
+param_random_forest__bootstrap                                                        False
+param_random_forest__max_depth                                                           50
+param_random_forest__max_features                                                       0.5
+param_random_forest__min_samples_leaf                                                     1
+param_random_forest__min_samples_split                                                    5
+param_random_forest__n_estimators                                                      2000
+params                                    {'adaboost__colsample_bylevel': 0.501815153627...
+split0_test_score                                                                  0.809524
+split1_test_score                                                                      0.75
+split2_test_score                                                                       0.8
+split3_test_score                                                                      0.85
+split4_test_score                                                                      0.85
+split5_test_score                                                                       0.7
+split6_test_score                                                                      0.75
+split7_test_score                                                                       0.8
+split8_test_score                                                                       0.8
+split9_test_score                                                                      0.55
+mean_test_score                                                                    0.765952
+std_test_score                                                                      0.08426
+rank_test_score                                                                           1
+Name: 9, dtype: object
+-------------------------------------------------------------------------------

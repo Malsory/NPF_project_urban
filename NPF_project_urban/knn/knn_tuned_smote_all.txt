@@ -1,0 +1,28 @@
+Test accuracy 0.6078431372549019
+Test precision 0.6021825396825397
+Test recall 0.6334733893557423
+Test roc_auc 0.7173640772786882
+Test f1 0.6097695218438252
+-------------------------------------------------------------------------------
+Train accuracy 1.0
+Train precision 1.0
+Train recall 1.0
+Train roc_auc 1.0
+Train f1 1.0
+-------------------------------------------------------------------------------
+mean_fit_time                  0.004981
+std_fit_time                   0.002674
+mean_score_time                0.008358
+std_score_time                 0.002562
+param_n_neighbors                     1
+params               {'n_neighbors': 1}
+split0_test_score              0.804878
+split1_test_score                 0.775
+split2_test_score                 0.725
+split3_test_score                 0.775
+split4_test_score                   0.8
+mean_test_score                0.775976
+std_test_score                  0.02833
+rank_test_score                       1
+Name: 0, dtype: object
+-------------------------------------------------------------------------------

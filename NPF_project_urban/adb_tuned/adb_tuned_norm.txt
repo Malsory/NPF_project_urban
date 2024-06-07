@@ -1,27 +1,41 @@
-Accuracies:  [0.58333333, 0.5       , 0.41666667, 0.58333333, 0.58333333, 0.66666667,
- 0.63636364, 0.63636364, 0.45454545, 0.81818182]
-Precisions:  [0.54166667, 0.65833333, 0.45833333, 0.65277778, 0.51851852, 0.83333333,
- 0.81818182, 0.76363636, 0.29292929, 0.87012987]
-Recalls:  [0.58333333, 0.5       , 0.41666667, 0.58333333, 0.58333333, 0.66666667,
- 0.63636364, 0.63636364, 0.45454545, 0.81818182]
------------------------------------------------------------------------------------------------
-Average accuracy: 0.5878787878787879
-Average precision: 0.6407840307840308
-Average recall: 0.5878787878787879
-Average roc_auc score: nan
-Average f1 score: 0.5838283122106651
-Average non-NPF recall: 0.6858333333333333
-Average NPF recall: 0.5366666666666666
-Average Undefined recall: 0.23333333333333334
------------------------------------------------------------------------------------------------
-Test accuracy 0.6551724137931034
-Test precision 0.5393518518518519
-Test recall 0.55119825708061
-Test roc_auc 0.6932419976537623
-Test f1 0.5430495430495431
+Test accuracy 0.5172413793103449
+Test precision 0.45454545454545453
+Test recall 0.45533769063180823
+Test roc_auc 0.5789006200770906
+Test f1 0.4527777777777777
+-------------------------------------------------------------------------------
+Train accuracy 1.0
+Train precision 1.0
+Train recall 1.0
+Train roc_auc 1.0
+Train f1 1.0
+-------------------------------------------------------------------------------
+mean_fit_time                                                   0.006279
+std_fit_time                                                    0.001265
+mean_score_time                                                 0.002695
+std_score_time                                                  0.000999
+param_algorithm                                                    SAMME
+param_learning_rate                                                  1.0
+param_n_estimators                                                  2000
+params                 {'algorithm': 'SAMME', 'learning_rate': 1.0, '...
+split0_test_score                                               0.583333
+split1_test_score                                               0.416667
+split2_test_score                                               0.583333
+split3_test_score                                               0.583333
+split4_test_score                                               0.333333
+split5_test_score                                               0.545455
+split6_test_score                                               0.727273
+split7_test_score                                               0.636364
+split8_test_score                                               0.545455
+split9_test_score                                               0.636364
+mean_test_score                                                 0.559091
+std_test_score                                                   0.10659
+rank_test_score                                                        1
+Name: 0, dtype: object
+-------------------------------------------------------------------------------
 Feature Importance:
        Feature  Importance
-3         SRAD    0.324463
-0     pressure    0.309006
-2  temperature    0.230658
-1           RH    0.135873
+1           RH    0.339641
+2  temperature    0.308446
+3         SRAD    0.192570
+0     pressure    0.159343

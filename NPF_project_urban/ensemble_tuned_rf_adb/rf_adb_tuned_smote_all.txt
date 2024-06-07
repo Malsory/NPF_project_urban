@@ -1,0 +1,40 @@
+Test accuracy 0.6078431372549019
+Test precision 0.5900408769973987
+Test recall 0.6078431372549019
+Test roc_auc 0.8788927335640139
+Test f1 0.5902777777777778
+-------------------------------------------------------------------------------
+Train accuracy 1.0
+Train precision 1.0
+Train recall 1.0
+Train roc_auc 1.0
+Train f1 1.0
+-------------------------------------------------------------------------------
+mean_fit_time                                                                      3.416204
+std_fit_time                                                                       0.651941
+mean_score_time                                                                    0.149916
+std_score_time                                                                     0.027906
+param_adaboost__learning_rate                                                           0.5
+param_adaboost__n_estimators                                                           2000
+param_random_forest__bootstrap                                                        False
+param_random_forest__max_depth                                                           20
+param_random_forest__max_features                                                      log2
+param_random_forest__min_samples_leaf                                                     4
+param_random_forest__min_samples_split                                                    5
+param_random_forest__n_estimators                                                      2000
+params                                    {'adaboost__learning_rate': 0.5, 'adaboost__n_...
+split0_test_score                                                                  0.571429
+split1_test_score                                                                       0.6
+split2_test_score                                                                       0.7
+split3_test_score                                                                      0.75
+split4_test_score                                                                       0.5
+split5_test_score                                                                      0.65
+split6_test_score                                                                       0.7
+split7_test_score                                                                       0.6
+split8_test_score                                                                      0.75
+split9_test_score                                                                      0.65
+mean_test_score                                                                    0.647143
+std_test_score                                                                     0.076545
+rank_test_score                                                                           1
+Name: 0, dtype: object
+-------------------------------------------------------------------------------

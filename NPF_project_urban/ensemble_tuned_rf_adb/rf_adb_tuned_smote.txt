@@ -1,22 +1,40 @@
-Accuracies:  [0.65384615, 0.57692308, 0.6       , 0.56      , 0.8       , 0.68      ,
- 0.68      , 0.8       , 0.68      , 0.84      ]
-Precisions:  [0.65096154, 0.57692308, 0.62666667, 0.64047619, 0.78564103, 0.70909091,
- 0.69551515, 0.79444444, 0.70109091, 0.845     ]
-Recalls:  [0.65384615, 0.57692308, 0.6       , 0.56      , 0.8       , 0.68      ,
- 0.68      , 0.8       , 0.68      , 0.84      ]
------------------------------------------------------------------------------------------------
-Average Accuracy: 0.6870769230769231
-Average Precision: 0.7025809912309913
-Average Recall: 0.6870769230769231
-Average Roc_auc score: 0.8659763655934708
-Average F1 score: 0.684544922913344
-Average non-NPF recall: 0.566031746031746
-Average NPF recall: 0.6682359307359307
-Average Undefined recall: 0.7997474747474748
------------------------------------------------------------------------------------------------
-test_accuracy 0.7254901960784313
-test_precision 0.7222222222222222
-test_recall 0.7254901960784315
-test_roc_auc 0.9400230680507499
-test_f1 0.7226190476190476
------------------------------------------------------------------------------------------------
+Test accuracy 0.6666666666666666
+Test precision 0.6817927170868346
+Test recall 0.6666666666666666
+Test roc_auc 0.8399653979238754
+Test f1 0.6703591637177975
+-------------------------------------------------------------------------------
+Train accuracy 1.0
+Train precision 1.0
+Train recall 1.0
+Train roc_auc 1.0
+Train f1 1.0
+-------------------------------------------------------------------------------
+mean_fit_time                                                                      1.943498
+std_fit_time                                                                       0.326987
+mean_score_time                                                                    0.067056
+std_score_time                                                                     0.013022
+param_adaboost__learning_rate                                                           0.1
+param_adaboost__n_estimators                                                            100
+param_random_forest__bootstrap                                                        False
+param_random_forest__max_depth                                                           10
+param_random_forest__max_features                                                      None
+param_random_forest__min_samples_leaf                                                     8
+param_random_forest__min_samples_split                                                   40
+param_random_forest__n_estimators                                                      1000
+params                                    {'adaboost__learning_rate': 0.1, 'adaboost__n_...
+split0_test_score                                                                  0.619048
+split1_test_score                                                                      0.65
+split2_test_score                                                                      0.75
+split3_test_score                                                                       0.7
+split4_test_score                                                                       0.7
+split5_test_score                                                                      0.75
+split6_test_score                                                                       0.7
+split7_test_score                                                                      0.75
+split8_test_score                                                                       0.7
+split9_test_score                                                                      0.65
+mean_test_score                                                                    0.696905
+std_test_score                                                                      0.04354
+rank_test_score                                                                           1
+Name: 18, dtype: object
+-------------------------------------------------------------------------------
