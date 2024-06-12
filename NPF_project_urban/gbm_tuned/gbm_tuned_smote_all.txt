@@ -1,8 +1,8 @@
-Test accuracy 0.7181960784313726
-Test precision 0.7340049709492434
-Test recall 0.7191176470588235
-Test roc_auc 0.8861786113732479
-Test f1 0.7162734482557161
+Test accuracy 0.7616470588235295
+Test precision 0.7725823384175787
+Test recall 0.7617647058823529
+Test roc_auc 0.9049862815001223
+Test f1 0.7605608492373198
 -------------------------------------------------------------------------------
 Train accuracy 1.0
 Train precision 1.0
@@ -10,25 +10,17 @@ Train recall 1.0
 Train roc_auc 1.0
 Train f1 1.0
 -------------------------------------------------------------------------------
-   test_accuracy  test_precision  test_recall  test_roc_auc   test_f1  \
-0       0.686275        0.726061     0.686275      0.866205  0.686508   
-1       0.764706        0.778151     0.764706      0.890427  0.767116   
-2       0.660000        0.657828     0.659314      0.879828  0.648652   
-3       0.720000        0.731481     0.724265      0.878435  0.717187   
-4       0.760000        0.776503     0.761029      0.915998  0.761905   
-
-   train_accuracy  train_precision  train_recall  train_roc_auc  train_f1  
-0             1.0              1.0           1.0            1.0       1.0  
-1             1.0              1.0           1.0            1.0       1.0  
-2             1.0              1.0           1.0            1.0       1.0  
-3             1.0              1.0           1.0            1.0       1.0  
-4             1.0              1.0           1.0            1.0       1.0  
+Fold 1 - Test Accuracy: 0.7255, Test Precision: 0.7482, Test Recall: 0.7255
+Fold 2 - Test Accuracy: 0.8627, Test Precision: 0.8778, Test Recall: 0.8627
+Fold 3 - Test Accuracy: 0.7200, Test Precision: 0.7246, Test Recall: 0.7194
+Fold 4 - Test Accuracy: 0.7400, Test Precision: 0.7407, Test Recall: 0.7414
+Fold 5 - Test Accuracy: 0.7600, Test Precision: 0.7716, Test Recall: 0.7598
 -------------------------------------------------------------------------------
 Feature Importance:
        Feature  Importance
-1           RH    0.224668
-3         SRAD    0.165444
-4         pm25    0.163705
-0     pressure    0.159665
-2  temperature    0.151393
-5          so2    0.135124
+3         SRAD    0.239464
+1           RH    0.217251
+0     pressure    0.164205
+5          so2    0.133295
+4         pm25    0.124233
+2  temperature    0.121552

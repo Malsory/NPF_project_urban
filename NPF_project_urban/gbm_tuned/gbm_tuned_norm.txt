@@ -1,32 +1,24 @@
-Test accuracy 0.6600985221674878
-Test precision 0.46736487683856104
-Test recall 0.4635893246187364
-Test roc_auc 0.7028873234178963
-Test f1 0.4530714076798801
+Test accuracy 0.6532019704433498
+Test precision 0.5144353307511202
+Test recall 0.49719498910675386
+Test roc_auc 0.6977764877880978
+Test f1 0.49767316993323185
 -------------------------------------------------------------------------------
-Train accuracy 0.9408695652173913
-Train precision 0.9670556620512517
-Train recall 0.8960625444207533
-Train roc_auc 0.9954675539561405
-Train f1 0.9194911347059685
+Train accuracy 0.9256671664167916
+Train precision 0.8946094581182301
+Train recall 0.8683542532971856
+Train roc_auc 0.9719918543195138
+Train f1 0.8746184693692565
 -------------------------------------------------------------------------------
-   test_accuracy  test_precision  test_recall  test_roc_auc   test_f1  \
-0       0.620690        0.413255     0.440087      0.609427  0.425926   
-1       0.689655        0.555556     0.461874      0.645136  0.465291   
-2       0.689655        0.455556     0.496732      0.791688  0.474474   
-3       0.586207        0.407407     0.421569      0.668100  0.414286   
-4       0.714286        0.505051     0.497685      0.800087  0.485380   
-
-   train_accuracy  train_precision  train_recall  train_roc_auc  train_f1  
-0        0.982609         0.990338      0.964835       0.999405  0.976934  
-1        0.843478         0.918394      0.736417       0.984076  0.793333  
-2        0.878261         0.926547      0.779061       0.993857  0.827189  
-3        1.000000         1.000000      1.000000       1.000000  1.000000  
-4        1.000000         1.000000      1.000000       1.000000  1.000000  
+Fold 1 - Test Accuracy: 0.5517, Test Precision: 0.3492, Test Recall: 0.3660
+Fold 2 - Test Accuracy: 0.6207, Test Precision: 0.4548, Test Recall: 0.4401
+Fold 3 - Test Accuracy: 0.7931, Test Precision: 0.8465, Test Recall: 0.7386
+Fold 4 - Test Accuracy: 0.5862, Test Precision: 0.4167, Test Recall: 0.4436
+Fold 5 - Test Accuracy: 0.7143, Test Precision: 0.5051, Test Recall: 0.4977
 -------------------------------------------------------------------------------
 Feature Importance:
        Feature  Importance
-1           RH    0.306055
-3         SRAD    0.288020
-2  temperature    0.225407
-0     pressure    0.180517
+1           RH    0.313526
+3         SRAD    0.312046
+2  temperature    0.251766
+0     pressure    0.122662

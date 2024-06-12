@@ -1,8 +1,8 @@
-Test accuracy 0.7380392156862745
-Test precision 0.7430416914240443
-Test recall 0.738235294117647
-Test roc_auc 0.8872555573031352
-Test f1 0.7375884396943745
+Test accuracy 0.7700392156862745
+Test precision 0.7702155054554436
+Test recall 0.7708333333333334
+Test roc_auc 0.9010848100380973
+Test f1 0.7684079591432533
 -------------------------------------------------------------------------------
 Train accuracy 1.0
 Train precision 1.0
@@ -10,15 +10,15 @@ Train recall 1.0
 Train roc_auc 1.0
 Train f1 1.0
 -------------------------------------------------------------------------------
-Fold 1 - Test Accuracy: 0.7059, Test Precision: 0.7059, Test Recall: 0.7059
-Fold 2 - Test Accuracy: 0.7843, Test Precision: 0.7889, Test Recall: 0.7843
-Fold 3 - Test Accuracy: 0.7400, Test Precision: 0.7481, Test Recall: 0.7414
-Fold 4 - Test Accuracy: 0.7200, Test Precision: 0.7333, Test Recall: 0.7206
-Fold 5 - Test Accuracy: 0.7400, Test Precision: 0.7390, Test Recall: 0.7390
+Fold 1 - Test Accuracy: 0.7255, Test Precision: 0.7214, Test Recall: 0.7255
+Fold 2 - Test Accuracy: 0.7647, Test Precision: 0.7630, Test Recall: 0.7647
+Fold 3 - Test Accuracy: 0.8000, Test Precision: 0.8002, Test Recall: 0.8015
+Fold 4 - Test Accuracy: 0.7000, Test Precision: 0.7003, Test Recall: 0.7010
+Fold 5 - Test Accuracy: 0.8600, Test Precision: 0.8662, Test Recall: 0.8615
 -------------------------------------------------------------------------------
 Feature Importance:
        Feature  Importance
-1           RH    0.289853
-3         SRAD    0.286419
-2  temperature    0.217739
-0     pressure    0.205988
+3         SRAD    0.318714
+1           RH    0.268120
+2  temperature    0.216143
+0     pressure    0.197023
