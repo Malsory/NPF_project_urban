@@ -1,28 +1,18 @@
-Test accuracy 0.6666666666666666
-Test precision 0.664760348583878
-Test recall 0.6800137598899209
-Test roc_auc 0.7823505101501671
-Test f1 0.6687887276122569
+Test accuracy 0.7698039215686274
+Test precision 0.7843014661014391
+Test recall 0.7693627450980391
+Test roc_auc 0.8270164884135471
+Test f1 0.7596831966181812
 -------------------------------------------------------------------------------
-Train accuracy 0.900497512437811
-Train precision 0.9106280193236715
-Train recall 0.9015069579638042
-Train roc_auc 0.9795244634438154
-Train f1 0.9000678723998883
+Train accuracy 1.0
+Train precision 1.0
+Train recall 1.0
+Train roc_auc 1.0
+Train f1 1.0
 -------------------------------------------------------------------------------
-mean_fit_time                  0.003612
-std_fit_time                   0.001839
-mean_score_time                0.004565
-std_score_time                 0.001487
-param_n_neighbors                     2
-params               {'n_neighbors': 2}
-split0_test_score              0.756098
-split1_test_score                  0.75
-split2_test_score                 0.675
-split3_test_score                   0.7
-split4_test_score                 0.575
-mean_test_score                 0.69122
-std_test_score                 0.065592
-rank_test_score                       1
-Name: 1, dtype: object
+Fold 1 - Test Accuracy: 0.7451, Test Precision: 0.7604, Test Recall: 0.7451
+Fold 2 - Test Accuracy: 0.8039, Test Precision: 0.8218, Test Recall: 0.8039
+Fold 3 - Test Accuracy: 0.7400, Test Precision: 0.7577, Test Recall: 0.7414
+Fold 4 - Test Accuracy: 0.8000, Test Precision: 0.8153, Test Recall: 0.8015
+Fold 5 - Test Accuracy: 0.7600, Test Precision: 0.7662, Test Recall: 0.7549
 -------------------------------------------------------------------------------

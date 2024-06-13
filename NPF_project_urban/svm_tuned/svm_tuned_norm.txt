@@ -1,34 +1,18 @@
-Test accuracy 0.5172413793103449
-Test precision 0.3314814814814815
-Test recall 0.39259259259259255
-Test roc_auc 0.5587301587301587
-Test f1 0.35767195767195764
+Test accuracy 0.6044334975369459
+Test precision 0.3819588712137438
+Test recall 0.3894607843137255
+Test roc_auc 0.6173838771451001
+Test f1 0.3610519190953974
 -------------------------------------------------------------------------------
-Train accuracy 0.8869565217391304
-Train precision 0.9333844776882753
-Train recall 0.7146496016061233
-Train roc_auc 0.598740693773775
-Train f1 0.7530850177909002
+Train accuracy 0.9253973013493255
+Train precision 0.9520121573062749
+Train recall 0.8443474254097607
+Train roc_auc 0.6465773886656425
+Train f1 0.8784946985580078
 -------------------------------------------------------------------------------
-mean_fit_time                       0.010166
-std_fit_time                        0.004033
-mean_score_time                     0.004893
-std_score_time                      0.001926
-param_C                                    1
-param_gamma                             0.01
-params               {'C': 1, 'gamma': 0.01}
-split0_test_score                   0.666667
-split1_test_score                        0.5
-split2_test_score                   0.416667
-split3_test_score                        0.5
-split4_test_score                       0.75
-split5_test_score                   0.636364
-split6_test_score                   0.545455
-split7_test_score                   0.818182
-split8_test_score                   0.727273
-split9_test_score                   0.636364
-mean_test_score                     0.619697
-std_test_score                      0.120871
-rank_test_score                            1
-Name: 0, dtype: object
+Fold 1 - Test Accuracy: 0.5517, Test Precision: 0.3398, Test Recall: 0.3660
+Fold 2 - Test Accuracy: 0.6552, Test Precision: 0.4633, Test Recall: 0.4248
+Fold 3 - Test Accuracy: 0.5862, Test Precision: 0.1954, Test Recall: 0.3333
+Fold 4 - Test Accuracy: 0.5862, Test Precision: 0.4529, Test Recall: 0.3995
+Fold 5 - Test Accuracy: 0.6429, Test Precision: 0.4583, Test Recall: 0.4236
 -------------------------------------------------------------------------------

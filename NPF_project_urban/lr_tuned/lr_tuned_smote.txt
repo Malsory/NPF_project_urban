@@ -1,35 +1,18 @@
-Test accuracy 0.6274509803921569
-Test precision 0.6232298474945533
-Test recall 0.6274509803921569
-Test roc_auc 0.7572087658592849
-Test f1 0.6249554367201426
+Test accuracy 0.516235294117647
+Test precision 0.5251650069991031
+Test recall 0.5161764705882352
+Test roc_auc 0.7222685330816818
+Test f1 0.5096870236215896
 -------------------------------------------------------------------------------
-Train accuracy 0.5422885572139303
-Train precision 0.5338177779022336
-Train recall 0.5422885572139303
-Train roc_auc 0.7238063414271925
-Train f1 0.5340476569271403
+Train accuracy 0.556558790207379
+Train precision 0.5473367553091569
+Train recall 0.5566286215978928
+Train roc_auc 0.7452143470855005
+Train f1 0.5478917762308646
 -------------------------------------------------------------------------------
-mean_fit_time                                                 0.115712
-std_fit_time                                                  0.023895
-mean_score_time                                                0.00259
-std_score_time                                                0.000913
-param_C                                 3385935148496365579130634240.0
-param_max_iter                                                   10000
-param_solver                                                 newton-cg
-params               {'C': 3.3859351484963656e+27, 'max_iter': 1000...
-split0_test_score                                             0.428571
-split1_test_score                                                 0.55
-split2_test_score                                                 0.45
-split3_test_score                                                  0.6
-split4_test_score                                                 0.35
-split5_test_score                                                 0.55
-split6_test_score                                                  0.5
-split7_test_score                                                  0.4
-split8_test_score                                                  0.4
-split9_test_score                                                 0.65
-mean_test_score                                               0.487857
-std_test_score                                                0.092805
-rank_test_score                                                      1
-Name: 2, dtype: object
+Fold 1 - Test Accuracy: 0.4706, Test Precision: 0.4652, Test Recall: 0.4706
+Fold 2 - Test Accuracy: 0.4706, Test Precision: 0.4819, Test Recall: 0.4706
+Fold 3 - Test Accuracy: 0.5800, Test Precision: 0.6067, Test Recall: 0.5797
+Fold 4 - Test Accuracy: 0.4800, Test Precision: 0.4792, Test Recall: 0.4853
+Fold 5 - Test Accuracy: 0.5800, Test Precision: 0.5928, Test Recall: 0.5748
 -------------------------------------------------------------------------------

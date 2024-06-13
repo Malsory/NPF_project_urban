@@ -1,46 +1,18 @@
-Test accuracy 0.6551724137931034
-Test precision 0.7507246376811594
-Test recall 0.5163398692810457
-Test roc_auc 0.6963046757164403
-Test f1 0.5595238095238095
+Test accuracy 0.6736453201970443
+Test precision 0.5246086119999164
+Test recall 0.4966503267973856
+Test roc_auc 0.7026019551770325
+Test f1 0.4931334790732208
 -------------------------------------------------------------------------------
-Train accuracy 0.9391304347826087
-Train precision 0.9624183006535948
-Train recall 0.873413154010169
-Train roc_auc 0.997788438758588
-Train f1 0.9081146150273457
+Train accuracy 0.9479010494752623
+Train precision 0.968681561790345
+Train recall 0.8884882668464759
+Train roc_auc 0.9976783841812026
+Train f1 0.9165670326978136
 -------------------------------------------------------------------------------
-mean_fit_time                                                                      4.053409
-std_fit_time                                                                       0.740714
-mean_score_time                                                                    0.142117
-std_score_time                                                                     0.026204
-param_adaboost__colsample_bylevel                                                       0.5
-param_adaboost__colsample_bynode                                                        1.0
-param_adaboost__colsample_bytree                                                        1.0
-param_adaboost__learning_rate                                                           0.1
-param_adaboost__max_depth                                                                 5
-param_adaboost__min_child_weight                                                          4
-param_adaboost__n_estimators                                                            100
-param_adaboost__subsample                                                               0.8
-param_random_forest__bootstrap                                                         True
-param_random_forest__max_depth                                                           50
-param_random_forest__max_features                                                       0.5
-param_random_forest__min_samples_leaf                                                     1
-param_random_forest__min_samples_split                                                    5
-param_random_forest__n_estimators                                                      2000
-params                                    {'adaboost__colsample_bylevel': 0.5, 'adaboost...
-split0_test_score                                                                  0.583333
-split1_test_score                                                                      0.75
-split2_test_score                                                                       0.5
-split3_test_score                                                                  0.583333
-split4_test_score                                                                  0.416667
-split5_test_score                                                                  0.909091
-split6_test_score                                                                  0.454545
-split7_test_score                                                                  0.727273
-split8_test_score                                                                  0.818182
-split9_test_score                                                                  0.909091
-mean_test_score                                                                    0.665152
-std_test_score                                                                     0.173278
-rank_test_score                                                                           1
-Name: 12, dtype: object
+Fold 1 - Test Accuracy: 0.5862, Test Precision: 0.3833, Test Recall: 0.4031
+Fold 2 - Test Accuracy: 0.6897, Test Precision: 0.5556, Test Recall: 0.4619
+Fold 3 - Test Accuracy: 0.7586, Test Precision: 0.8148, Test Recall: 0.7190
+Fold 4 - Test Accuracy: 0.6552, Test Precision: 0.3853, Test Recall: 0.4387
+Fold 5 - Test Accuracy: 0.6786, Test Precision: 0.4841, Test Recall: 0.4606
 -------------------------------------------------------------------------------
